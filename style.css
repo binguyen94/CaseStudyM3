@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
 * {
+    font-family: 'Noto Serif', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+    scroll-padding-top: 16px;
     scroll-behavior: smooth;
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Lato', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
 }
+:root {
+    --main-color: #ffa500;
+    --text-color: #020102;
+    --bg-color: #fff;
+}   
 
 /* Navbar Star */
 #navbar {
@@ -49,12 +56,94 @@
     color: white;
 }
 
-#navbar form button {
-    background: orange;
-    color: white;
+#navbar form a  {
+    background: #ffa500;
+    color: #020102;
     border: none;
+    margin-left: 10px;
+}
+#navbar form a:hover{
+    background: #ffa500;
+    color: #f9f9f9;
 }
 
+.nav-item {
+    margin-left: 10px;
+  }
+/* nav{
+    display: flex;
+    width: 100%;
+    background: #0a5071;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+nav .icon{
+    font-size: 35px;
+    font-weight: 800px;
+    color: #fff;
+    cursor: pointer;
+}
+nav ol{
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+nav ol li{
+    margin: 0 2px;
+}
+nav ol li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+nav ol li:hover a{
+    background: #fff;
+    color: #ffa500
+}
+nav .search_box{
+    display: flex;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+nav .search_box input{
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 350px;
+}
+nav .search_box span{
+    color: #ffa500;
+    font-size: 20px;
+    background: #fff;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+nav .search_box span:hover::after{
+    height: 100%;
+    width: 0%;
+    content: '';
+    background: #ffa500;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+nav .search_box span:hover::after{
+    width: 100%;
+} */
 /* Navbar End */
 
 /* Home Section Start */
