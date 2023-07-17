@@ -30,11 +30,11 @@
 }
 
 #logo span {
-    color: #00B0B8;
+    color: #ffa500;
 }
 
 .navbar-toggler span {
-    color: #00B0B8
+    color: #ffa500
 }
 
 .navbar-nav {
@@ -52,19 +52,19 @@
 }
 
 .nav-item .nav-link:hover {
-    background: #00B0B8;
+    background: #ffa500;
     color: white;
 }
 
 #navbar form a  {
-    background: #00B0B8;
+    background: #ffa500;
     color: #020102;
     border: none;
     margin-left: 10px;
     border-radius: 50%;
 }
 #navbar form a:hover{
-    background: #00B0B8;
+    background: #ffa500;
     color: #f9f9f9;
 }
 
@@ -151,7 +151,7 @@ nav .search_box span:hover::after{
 .home {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(./image/Halong-Bay-Vietnam.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(./image/Bà-Nà-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -178,7 +178,7 @@ nav .search_box span:hover::after{
 
 .changecontent::after {
     content: ' ';
-    color: #00B0B8;
+    color: #ffa500;
     text-shadow: 0px 1px 1px black;
     animation: changetext 10s infinite linear;
 }
@@ -250,7 +250,7 @@ nav .search_box span:hover::after{
 }
 
 .home .content a:hover {
-    background: #00B0B8;
+    background: #ffa500;
     color: white;
 }
 
@@ -281,7 +281,7 @@ nav .search_box span:hover::after{
     font-weight: 600;
 }
 .main-text h1 span{
-    color: #00B0B8;
+    color: #ffa500;
 }
 .book .card{
     border-radius: 10px;
@@ -311,7 +311,7 @@ nav .search_box span:hover::after{
     width: 160px;
     font-size: 16px;
     font-weight: 550;
-    background: #00B0B8;
+    background: #ffa500;
     color: white;
     margin-top: 10px;
     transition: 0.5s;
@@ -341,7 +341,7 @@ nav .search_box span:hover::after{
     text-shadow: 0px 1px 1px black;
 }
 .main-txt h1 span{
-    color: #00B0B8;
+    color: #ffa500;
 }
 .packages .card{
     border-radius: 5px;
@@ -362,7 +362,7 @@ nav .search_box span:hover::after{
     font-size: 15px;
 }
 .checked{
-    color: #00B0B8;
+    color: #ffa500;
 }
 .star i{
     font-size: 15px;
@@ -370,7 +370,7 @@ nav .search_box span:hover::after{
 .packages .card .card-body a{
     padding: 10px;
     text-decoration: none;
-    background: #00B0B8;
+    background: #ffa500;
     color: white;
     border-radius: 5px;
 }
@@ -390,7 +390,7 @@ nav .search_box span:hover::after{
 .services .card i{
     font-size: 80px;
     text-align: center;
-    color: #00B0B8;
+    color: #ffa500;
     margin-top: 20px;
 }
 .services .card .card-body h3{
@@ -446,7 +446,7 @@ nav .search_box span:hover::after{
     height: 38px;
     border: none;
     border-radius: 5px;
-    background: #00B0B8;
+    background: #ffa500;
     color: white;
     letter-spacing: 2px;
     font-weight: 550;
@@ -477,7 +477,7 @@ nav .search_box span:hover::after{
     text-shadow: 0px 0px 1px black;
 }
 #footer h1 span{
-    color: #00B0B8;
+    color: #ffa500;
 }
 .social-links i{
     padding: 10px;
@@ -491,6 +491,6 @@ nav .search_box span:hover::after{
     cursor: pointer;
 }
 .social-links i:hover{
-    background: #00B0B8;
+    background: #ffa500;
 }
 /* Footer End */

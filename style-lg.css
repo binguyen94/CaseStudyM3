@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 :root {
-    --main-color: #ffa500;
+    --main-color: #00B0B8;
     --text-color: #020102;
     --bg-color: #fff;
 }   
@@ -30,11 +30,11 @@
 }
 
 #logo span {
-    color: #47E3F9;
+    color: #00B0B8;
 }
 
 .navbar-toggler span {
-    color: #47E3F9;
+    color: #00B0B8;
 }
 
 .navbar-nav {
@@ -52,18 +52,18 @@
 }
 
 .nav-item .nav-link:hover {
-    background: #47E3F9;
+    background: #00B0B8;
     color: white;
 }
 
 #navbar form a  {
-    background: #ffa500;
+    background: #00B0B8;
     color: #020102;
     border: none;
     margin-left: 10px;
 }
 #navbar form a:hover{
-    background: #ffa500;
+    background: #00B0B8;
     color: #f9f9f9;
 }
 .nav-item {
