@@ -37,13 +37,6 @@
 <body>
 
 
-
-
-
-
-
-
-
 <!-- Nav Start -->
 <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container">
@@ -88,25 +81,7 @@
     </div>
 </nav>
 
-<!-- <nav>
-  <div class="icon">Travel <b style="color: #ffa500;">N</b>N</div>
-  <div class="search_box">
-     <input type="search" placeholder="Tìm kiếm...">
-     <span class="fa fa-search"></span>
-  </div>
-  <ol>
-    <li><a href="#home">Trang chủ</a></li>
-    <li><a href="#book">Book</a></li>
-    <li><a href="#packages">Gói</a></li>
-    <li><a href="#service">Dịch vụ</a></li>
-    <li><a href="#gallary">Trải nghiệm</a></li>
-    <li><a href="#login">Đăng nhập</a></li>
-  </ol>
-  <label for="" class="bar">
-    span
-  </label>
-</nav> -->
-<!-- Nav End -->
+
 
 
 
@@ -122,47 +97,6 @@
 <!-- Home Section End -->
 
 
-
-
-
-
-<!-- Section Book Start -->
-<!-- <section class="book" id="book">
-  <div class="container">
-
-    <div class="main-text">
-      <h1><span>B</span>ook</h1>
-    </div>
-
-    <div class="row">
-
-
-      <div class="col-md-6 py-3 py-md-0">
-        <div class="card">
-          <img src="/frontend/assets/image/du-lich-ha-long.webp" alt="">
-        </div>
-      </div>
-
-      <div class="col-md-6 py-3 py-md-0">
-        <form action="#">
-
-          <input type="text" class="form-control" placeholder="Họ và tên" required><br>
-          <input type="text" class="form-control" placeholder="Chọn gói du lịch" required><br>
-          <input type="date" class="form-control" placeholder="Ngày xuất phát" required><br>
-          <input type="text" class="form-control" placeholder="Số lượng khách" required><br>
-          <textarea class="form-control" rows="5" name="text" placeholder="Nhập tên và nội dung"></textarea>
-          <input type="submit" value="Book Now" class="submit" required>
-
-        </form>
-      </div>
-
-    </div>
-  </div>
-</section> -->
-<!-- Section Book End -->
-
-
-
 <!-- Section packages Start -->
 <section class="packages" id="packages">
     <div class="container">
@@ -175,7 +109,7 @@
             <div class="col-md-4 py-3 py-md-0">
 
                 <div class="card">
-                    <img src="/frontend/assets/image/hue.jpg" alt="">
+                    <img src="frontend\assets\image\hue.jpg" alt="">
                     <div class="card-body">
                         <h3>Huế</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
@@ -195,7 +129,7 @@
             <div class="col-md-4 py-3 py-md-0">
 
                 <div class="card">
-                    <img src="/frontend/assets/image/nha trang.jpg" alt="">
+                    <img src="frontend\assets\image\nha trang.jpg" alt="">
                     <div class="card-body">
                         <h3>Nha Trang</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
@@ -215,7 +149,7 @@
             <div class="col-md-4 py-3 py-md-0">
 
                 <div class="card">
-                    <img src="/frontend/assets/image/da nang.jpg" alt="">
+                    <img src="frontend\assets\image\da nang.jpg" alt="">
                     <div class="card-body">
                         <h3>Đà Nẵng</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
@@ -238,7 +172,7 @@
             <div class="col-md-4 py-3 py-md-0">
 
                 <div class="card">
-                    <img src="/frontend/assets/image/dalat.jpg" alt="">
+                    <img src="frontend\assets\image\dalat.jpg" alt="">
                     <div class="card-body">
                         <h3>Đà Lạt</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
@@ -258,7 +192,7 @@
             <div class="col-md-4 py-3 py-md-0">
 
                 <div class="card">
-                    <img src="/frontend/assets/image/quynhon.jpg" alt="">
+                    <img src="frontend\assets\image\quynhon.jpg" alt="">
                     <div class="card-body">
                         <h3>Quy Nhơn</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
@@ -278,7 +212,7 @@
             <div class="col-md-4 py-3 py-md-0">
 
                 <div class="card">
-                    <img src="/frontend/assets/image/phanthiet.jpg" alt="">
+                    <img src="frontend\assets\image\phanthiet.jpg" alt="">
                     <div class="card-body">
                         <h3>Phan Thiết</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
@@ -418,17 +352,17 @@
         <div class="row" style="margin-top: 30px;">
             <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
-                    <img src="/frontend/assets/image/trekking.jpg" alt="" height="230px">
+                    <img src="frontend\assets\image\trekking.jpg" alt="" height="230px">
                 </div>
             </div>
             <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
-                    <img src="/frontend/assets/image/lanbien.jpg" alt="" height="230px">
+                    <img src="frontend\assets\image\lanbien.jpg" alt="" height="230px">
                 </div>
             </div>
             <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
-                    <img src="/frontend/assets/image/disan.jpg" alt="" height="230px">
+                    <img src="frontend\assets\image\disan.jpg" alt="" height="230px">
                 </div>
             </div>
         </div>
@@ -436,17 +370,17 @@
         <div class="row" style="margin-top: 30px;">
             <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
-                    <img src="/frontend/assets/image/nauan.jpg" alt="" height="230px">
+                    <img src="frontend\assets\image\nauan.jpg" alt="" height="230px">
                 </div>
             </div>
             <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
-                    <img src="/frontend/assets/image/choi1.webp" alt="" height="230px">
+                    <img src="frontend\assets\image\choi1.webp" alt="" height="230px">
                 </div>
             </div>
             <div class="col-md-4 py-3 py-md-0">
                 <div class="card">
-                    <img src="/frontend/assets/image/halong2.jpg" alt="" height="230px">
+                    <img src="frontend\assets\image\halong2.jpg" alt="" height="230px">
                 </div>
             </div>
         </div>
@@ -467,7 +401,7 @@
 
             <div class="col-md-6 py-3 py-md-0">
                 <div class="card">
-                    <img src="/frontend/assets/image/tourguid.jpg" alt="">
+                    <img src="frontend\assets\image\tourguid.jpg" alt="">
                 </div>
             </div>
 

@@ -11,10 +11,10 @@
     box-sizing: border-box;
 }
 :root {
-    --main-color: #ffa500;
+    --main-color: #00B0B8;
     --text-color: #020102;
     --bg-color: #fff;
-}   
+}
 
 /* Navbar Star */
 #navbar {
@@ -30,11 +30,11 @@
 }
 
 #logo span {
-    color: #ffa500;
+    color: #00B0B8;
 }
 
 .navbar-toggler span {
-    color: #ffa500
+    color: #00B0B8
 }
 
 .navbar-nav {
@@ -48,29 +48,29 @@
     letter-spacing: 1px;
     border-radius: 3px;
     transition: 0.5s ease;
-    
+
 }
 
 .nav-item .nav-link:hover {
-    background: #ffa500;
+    background: #00B0B8;
     color: white;
 }
 
 #navbar form a  {
-    background: #ffa500;
+    background: #00B0B8;
     color: #020102;
     border: none;
     margin-left: 10px;
     border-radius: 50%;
 }
 #navbar form a:hover{
-    background: #ffa500;
+    background: #00B0B8;
     color: #f9f9f9;
 }
 
 .nav-item {
     margin-left: 10px;
-  }
+}
 /* nav{
     display: flex;
     width: 100%;
@@ -151,7 +151,7 @@ nav .search_box span:hover::after{
 .home {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(./image/Bà-Nà-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(/frontend/assets/image/Halong.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -171,14 +171,14 @@ nav .search_box span:hover::after{
 .home .content h1 {
     color: white;
     font-size: 70px;
-    font-weight: 550px;
+    font-weight: 550;
     text-shadow: 0px 1px 1px black;
     margin-top: 5px;
 }
 
 .changecontent::after {
     content: ' ';
-    color: #ffa500;
+    color: #00B0B8;
     text-shadow: 0px 1px 1px black;
     animation: changetext 10s infinite linear;
 }
@@ -244,13 +244,13 @@ nav .search_box span:hover::after{
     color: black;
     letter-spacing: 2px;
     font-weight: 550;
-    border-radius: 550;
+    border-radius: 50%;
     text-decoration: none;
     transition: 0.5s;
 }
 
 .home .content a:hover {
-    background: #ffa500;
+    background: #00B0B8;
     color: white;
 }
 
@@ -281,7 +281,7 @@ nav .search_box span:hover::after{
     font-weight: 600;
 }
 .main-text h1 span{
-    color: #ffa500;
+    color: #00B0B8;
 }
 .book .card{
     border-radius: 10px;
@@ -298,7 +298,7 @@ nav .search_box span:hover::after{
     font-size: 15px;
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px black;
-    
+
 }
 .book form textarea{
     border: none;
@@ -311,7 +311,7 @@ nav .search_box span:hover::after{
     width: 160px;
     font-size: 16px;
     font-weight: 550;
-    background: #ffa500;
+    background: #00B0B8;
     color: white;
     margin-top: 10px;
     transition: 0.5s;
@@ -341,7 +341,7 @@ nav .search_box span:hover::after{
     text-shadow: 0px 1px 1px black;
 }
 .main-txt h1 span{
-    color: #ffa500;
+    color: #00B0B8;
 }
 .packages .card{
     border-radius: 5px;
@@ -362,7 +362,7 @@ nav .search_box span:hover::after{
     font-size: 15px;
 }
 .checked{
-    color: #ffa500;
+    color: #00B0B8;
 }
 .star i{
     font-size: 15px;
@@ -370,7 +370,7 @@ nav .search_box span:hover::after{
 .packages .card .card-body a{
     padding: 10px;
     text-decoration: none;
-    background: #ffa500;
+    background: #00B0B8;
     color: white;
     border-radius: 5px;
 }
@@ -390,7 +390,7 @@ nav .search_box span:hover::after{
 .services .card i{
     font-size: 80px;
     text-align: center;
-    color: #ffa500;
+    color: #00B0B8;
     margin-top: 20px;
 }
 .services .card .card-body h3{
@@ -446,7 +446,7 @@ nav .search_box span:hover::after{
     height: 38px;
     border: none;
     border-radius: 5px;
-    background: #ffa500;
+    background: #00B0B8;
     color: white;
     letter-spacing: 2px;
     font-weight: 550;
@@ -477,7 +477,7 @@ nav .search_box span:hover::after{
     text-shadow: 0px 0px 1px black;
 }
 #footer h1 span{
-    color: #ffa500;
+    color: #00B0B8;
 }
 .social-links i{
     padding: 10px;
@@ -491,6 +491,6 @@ nav .search_box span:hover::after{
     cursor: pointer;
 }
 .social-links i:hover{
-    background: #ffa500;
+    background: #00B0B8;
 }
 /* Footer End */
