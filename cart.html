@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+        integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
+
+
+    <style>
+
+    </style>
+
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Nav Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+
+
+        </div>
+    </nav>
+
+    <div class="home">
+        <div class="content">
+            <h5>Trải nghiệm kỳ nghỉ tuyệt vời </h5>
+            <h1>Điểm đến <span class="changecontent"></span></h1>
+            <p>Combo khách sạn - tour du lịch - đưa đón tận tình với giá tốt nhất</p>
+            <a href="#book">Book Tour</a>
+        </div>
+    </div>
+
+
+    <!-- <div class="container d-flex justify-content-center mt-5">
+        <div class="col-7 border border-2 rounded-2 mb-2 p-2 bg-white">
+            <h5 class="text-danger fw-bold">Giỏ hàng của bạn:</h5>
+            <table>
+                <tr>
+                    <td class="col-3" rowspan="4"><img class="d-block w-100 p-1" src="image/da nang.jpg" alt=""></td>
+                    <td class="col-5"><label>Tour: <span>..........</span></label></td>
+                    <td class="col-3"><input class="w-25 text-center border border-danger rounded" type="number"
+                            value="1" min="1"></td>
+                    <td class="col-1"><button class="btn btn-danger rounded-bottom-circle">HỦY</button></td>
+                </tr>
+                <tr>
+                    <td><label>Ngày khởi hành: <span>..............</span></label></td>
+                    <td><label>Giá tiền:.... <span>vnđ/ 1 vé</span></label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label>Ngày kết thúc: <span>............</span></label></td>
+                    <td><label class="text-danger">Tổng tiền:... <span>vnđ</span></label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><label>Số lượng vé còn lại: <span>..........</span></label></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="col-4 mx-2 border border-2 rounded-2 h-100 p-3 bg-white">
+            <div class="d-flex justify-content-between mt-2">
+                <label class="text-danger fw-bold fs-5">Tổng tiền:</label>
+                <label class="fw-bold">......... <span>vnđ</span></label>
+            </div>
+            <div><button class="btn btn-primary mt-5 mb-2 w-100">Thanh toán</button></div>
+        </div>
+    </div> -->
+
+    <body class="bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-10 col-11 mx-auto">
+                    <div class="row mt-5 gx-3">
+                        <!-- left side div -->
+                        <div class="col-md-12 col-lg-8 col-11 mx-auto main_cart mb-lg-0 mb-5 shadow">
+                            <div class="card p-4">
+                                <!-- 1 -->
+                                <h2 class="py-4 font-weight-bold">Giỏ hàng của bạn</h2>
+                                <div class="row">
+                                    <!-- cart images div -->
+                                    <div
+                                        class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow product_img">
+                                        <img src="./image/hue.jpg" class="img-fluid" alt="cart img">
+                                    </div>
+                                    <!-- cart product details -->
+                                    <div class="col-md-7 col-11 mx-auto px-4 mt-2">
+                                        <div class="row">
+                                            <!-- product name  -->
+                                            <div class="col-6 card-title">
+                                                <p class="mb-4 product_name">Lịch trình: <span>Đại nội Cố đô Huế - Chùa Thiên Mụ - Lăng Tự Đức - Chợ Đông Ba - Vườn Quốc Gia Bạch Mã</span></p>
+                                                <p class="mb-2">Ngày khởi hành: <span>15-07-2023</span></p>
+                                                <p class="mb-2">Ngày kết thúc: <span>20-07-2023</span></p>
+                                                
+                                            </div>
+                                            <!-- quantity inc dec -->
+                                            <div class="col-6">
+                                                <ul class="pagination justify-content-end set_quantity">
+                                                    <li class="page-item">
+                                                        <button class="page-link "
+                                                            onclick="decreaseNumber('textbox','itemval')">
+                                                            <i class="fas fa-minus"></i> </button>
+                                                    </li>
+                                                    <li class="page-item"><input type="text" name="" class="page-link"
+                                                            value="0" id="textbox">
+                                                    </li>
+                                                    <li class="page-item">
+                                                        <button class="page-link"
+                                                            onclick="increaseNumber('textbox','itemval')"> <i
+                                                                class="fas fa-plus"></i></button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- //remover move and price -->
+                                        <div class="row">
+                                            <div class="col-8 d-flex justify-content-between remove_wish">
+                                                <p><i class="fas fa-trash-alt"></i> Hủy</p>
+                                            </div>
+                                            <div class="col-4 d-flex justify-content-end price_money">
+                                                <h3><span id="itemval">0 </span>VNĐ</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <!-- 2nd cart product -->
+                            
+                        </div>
+                        <!-- right side div -->
+                        <div class="col-md-12 col-lg-4 col-11 mx-auto mt-lg-0 mt-md-5">
+                            <div class="right_side p-3 shadow bg-white">
+                                <h2 class="product_name mb-5">Tổng tiền</h2>
+                                <div class="price_indiv d-flex justify-content-between">
+                                    <p>Tổng tiền</p>
+                                    <p><span id="product_total_amt">0</span> VNĐ</p>
+                                </div>
+                                
+                                <hr />
+                                
+                                <button class="btn btn-primary text-uppercase">Thanh Toán</button>
+                                
+                                
+                                
+                            </div>
+                            
+                            <!-- discount code part -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- Popper.js first, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+            integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+            crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+
+            var product_total_amt = document.getElementById('product_total_amt');
+            var shipping_charge = document.getElementById('shipping_charge');
+            var total_cart_amt = document.getElementById('total_cart_amt');
+            var discountCode = document.getElementById('discount_code1');
+            const decreaseNumber = (incdec, itemprice) => {
+                var itemval = document.getElementById(incdec);
+                var itemprice = document.getElementById(itemprice);
+                console.log(itemprice.innerHTML);
+                // console.log(itemval.value);
+                if (itemval.value <= 0) {
+                    itemval.value = 0;
+                    alert('Negative quantity not allowed');
+                } else {
+                    itemval.value = parseInt(itemval.value) - 1;
+                    itemval.style.background = '#fff';
+                    itemval.style.color = '#000';
+                    itemprice.innerHTML = parseInt(itemprice.innerHTML) - 1500000;
+                    product_total_amt.innerHTML = parseInt(product_total_amt.innerHTML) - 1500000;
+                    total_cart_amt.innerHTML = parseInt(product_total_amt.innerHTML) + parseInt(shipping_charge.innerHTML);
+                }
+            }
+            const increaseNumber = (incdec, itemprice) => {
+                var itemval = document.getElementById(incdec);
+                var itemprice = document.getElementById(itemprice);
+                // console.log(itemval.value);
+                if (itemval.value >= 5) {
+                    itemval.value = 5;
+                    alert('max 5 allowed');
+                    itemval.style.background = 'red';
+                    itemval.style.color = '#fff';
+                } else {
+                    itemval.value = parseInt(itemval.value) + 1;
+                    itemprice.innerHTML = parseInt(itemprice.innerHTML) + 1500000;
+                    product_total_amt.innerHTML = parseInt(product_total_amt.innerHTML) + 1500000;
+                    total_cart_amt.innerHTML = parseInt(product_total_amt.innerHTML) + parseInt(shipping_charge.innerHTML);
+                }
+            }
+     
+            const discount_code = () => {
+                let totalamtcurr = parseInt(total_cart_amt.innerHTML);
+                let error_trw = document.getElementById('error_trw');
+                if (discountCode.value === 'thapa') {
+                    let newtotalamt = totalamtcurr - 1500000;
+                    total_cart_amt.innerHTML = newtotalamt;
+                    error_trw.innerHTML = "Hurray! code is valid";
+                } else {
+                    error_trw.innerHTML = "Try Again! Valid code is thapa";
+                }
+            }
+        </script>
+
+
+    </body>
+
+</html>

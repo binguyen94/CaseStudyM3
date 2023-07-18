@@ -15,7 +15,7 @@
 
   <!-- Font Awesome Cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+
   <!-- Font Awesome Cdn -->
 
   <!-- Google font -->
@@ -31,54 +31,57 @@
 
 
   <!-- Nav Start -->
-  <nav class="navbar navbar-expand-lg" id="navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-        <span><i class="fa-solid fa-bars"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mynavbar">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Trang chủ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#book">Book</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#packages">Gói</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#service">Dịch Vụ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#gallary">Trải Nghiệm</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Liên Hệ</a>
-          </li>
-          <li class="nav-item">
-            
-            <input class="form-control me-2" type="text" placeholder="Tìm kiếm">
-          
-          </li>
+  <header>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel<span> N</span>N</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#book">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">Gói</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Dịch Vụ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallary">Trải Nghiệm</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Liên Hệ</a>
+            </li>
+            <li class="nav-item">
 
-        </ul>
-        
-        <form class="d-flex">
-          <div class="left-items">
-            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-icon"></i><span class="cart-price">0</span>
-          </div>
-          <div class="right-items">
-            <a class="nav-link" href="signIn.html">Đăng nhập</a>
-          </div>
+              <input class="form-control me-2" type="text" placeholder="Tìm kiếm">
+    
+            </li>
 
-        </form>
+          </ul>
+
+          <form class="d-flex">
+            <div class="left-items">
+              <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-icon"></i><span class="cart-price"
+                id="click-count">0</span>
+            </div>
+            <div class="right-items">
+              <a class="nav-link" href="signIn.html">Đăng nhập</a>
+            </div>
+
+          </form>
+
+        </div>
 
       </div>
-
-    </div>
-  </nav>
+    </nav>
+  </header>
 
 
 
@@ -111,7 +114,9 @@
             <img src="./image/hue.jpg" alt="">
             <div class="card-body">
               <h3>Huế</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
+              <p>Đại nội Cố đô Huế - Chùa Thiên Mụ - Lăng Tự Đức - Chợ Đông Ba - Vườn Quốc Gia Bạch Mã</p>
+              <p>Ngày khởi hành: <span>15-07-2023</span></p>
+              <p>Ngày kết thúc: <span>20-07-2023</span></p>
               <div class="start">
                 <i class="fa-solid fa-star checked"></i>
                 <i class="fa-solid fa-star checked"></i>
@@ -119,8 +124,9 @@
                 <i class="fa-solid fa-star checked"></i>
                 <i class="fa-solid fa-star "></i>
               </div>
+
               <h6>Giá: <strong>2.000.000 VND</strong></h6>
-              <a href="#book">Book Now</a>
+              <a href="#book" id="book-click">Book Now</a>
             </div>
           </div>
 
@@ -131,7 +137,9 @@
             <img src="./image/nha trang.jpg" alt="">
             <div class="card-body">
               <h3>Nha Trang</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
+              <p>Đảo Hòn Mun - Vinpearl Land - Tháp bà Ponagar - Suối Khoáng nóng - Bãi Dài</p>
+              <p>Ngày khởi hành: <span>15-07-2023</span></p>
+              <p>Ngày kết thúc: <span>20-07-2023</span></p>
               <div class="start">
                 <i class="fa-solid fa-star checked"></i>
                 <i class="fa-solid fa-star checked"></i>
@@ -140,7 +148,7 @@
                 <i class="fa-solid fa-star "></i>
               </div>
               <h6>Giá: <strong>2.000.000 VND</strong></h6>
-              <a href="#book">Book Now</a>
+              <a href="#book" id="book-click">Book Now</a>
             </div>
           </div>
 
@@ -151,7 +159,9 @@
             <img src="./image/da nang.jpg" alt="">
             <div class="card-body">
               <h3>Đà Nẵng</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
+              <p>Bà Nà Hills - Cầu Rồng - Ngũ Hành Sơn - Làng Đá Non Nước - Chùa Linh Ứng</p>
+              <p>Ngày khởi hành: <span>15-07-2023</span></p>
+              <p>Ngày kết thúc: <span>20-07-2023</span></p>
               <div class="start">
                 <i class="fa-solid fa-star checked"></i>
                 <i class="fa-solid fa-star checked"></i>
@@ -160,7 +170,7 @@
                 <i class="fa-solid fa-star "></i>
               </div>
               <h6>Giá: <strong>2.000.000 VND</strong></h6>
-              <a href="#book">Book Now</a>
+              <a href="#book" id="book-click">Book Now</a>
             </div>
           </div>
 
@@ -174,7 +184,9 @@
             <img src="./image/dalat.jpg" alt="">
             <div class="card-body">
               <h3>Đà Lạt</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
+              <p>Thung Lũng Tình Yêu - Công Viên Hoa Đà Lạt - Đồi Chè Cầu Đất - Đồi RoBin - Thác Pongour</p>
+              <p>Ngày khởi hành: <span>15-07-2023</span></p>
+              <p>Ngày kết thúc: <span>20-07-2023</span></p>
               <div class="start">
                 <i class="fa-solid fa-star checked"></i>
                 <i class="fa-solid fa-star checked"></i>
@@ -183,7 +195,7 @@
                 <i class="fa-solid fa-star "></i>
               </div>
               <h6>Giá: <strong>2.000.000 VND</strong></h6>
-              <a href="#book">Book Now</a>
+              <a href="#book" id="book-click">Book Now</a>
             </div>
           </div>
 
@@ -194,7 +206,9 @@
             <img src="./image/quynhon.jpg" alt="">
             <div class="card-body">
               <h3>Quy Nhơn</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
+              <p>Bãi biển Ghềnh Ráng - Chùa Long Khánh - Khu du lịch Eo Gió - Đảo Kỳ Co - Khu di tích Hòn Khô</p>
+              <p>Ngày khởi hành: <span>15-07-2023</span></p>
+              <p>Ngày kết thúc: <span>20-07-2023</span></p>
               <div class="start">
                 <i class="fa-solid fa-star checked"></i>
                 <i class="fa-solid fa-star checked"></i>
@@ -203,7 +217,7 @@
                 <i class="fa-solid fa-star "></i>
               </div>
               <h6>Giá: <strong>2.000.000 VND</strong></h6>
-              <a href="#book">Book Now</a>
+              <a href="#book" id="book-click">Book Now</a>
             </div>
           </div>
 
@@ -214,7 +228,9 @@
             <img src="./image/phanthiet.jpg" alt="">
             <div class="card-body">
               <h3>Phan Thiết</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsa?</p>
+              <p>Khu di tích Hòn Khô - Bãi biển Mũi Né - Chợ Đồi - Khu du lịch Tà Cú - Tháp Chăm Po Sah Inư</p>
+              <p>Ngày khởi hành: <span>15-07-2023</span></p>
+              <p>Ngày kết thúc: <span>20-07-2023</span></p>
               <div class="start">
                 <i class="fa-solid fa-star checked"></i>
                 <i class="fa-solid fa-star checked"></i>
@@ -223,7 +239,7 @@
                 <i class="fa-solid fa-star "></i>
               </div>
               <h6>Giá: <strong>2.000.000 VND</strong></h6>
-              <a href="#book">Book Now</a>
+              <a href="#book" id="book-click">Book Now</a>
             </div>
           </div>
 
@@ -410,10 +426,11 @@
             tôi cam kết mang đến cho bạn những trải nghiệm du lịch tuyệt vời nhất, bao gồm các chuyến tham quan,
             retreats công ty, và team building theo nhu cầu và mục tiêu riêng của bạn. Chúng tôi tự hào về các chương
             trình du lịch thú vị và những trải nghiệm đặc biệt mà chúng tôi tạo ra, từ việc cải thiện giao tiếp cho đến
-            xây dựng niềm tin, hoặc đơn giản chỉ là một kỳ nghỉ thuần túy. Cam kết của chúng tôi là mang lại những kết
+            xây dựng niềm tin, hoặc đơn giản chỉ là một kỳ nghỉ thuần túy.<span id="more-content"> Cam kết của chúng tôi là mang lại những kết
             quả tích cực, bao gồm làm mới bản thân, nâng cao tinh thần đoàn kết và ghi lại những kỷ niệm lâu dài. Hãy
             liên hệ với chúng tôi ngay hôm nay để bắt đầu chuyến đi của bạn và đưa đội nhóm của bạn trên con đường để
-            trở nên mạnh mẽ và gắn kết hơn bao giờ hết!</p>
+            trở nên mạnh mẽ và gắn kết hơn bao giờ hết! Chúng tôi cam kết mang đến cho bạn những trải nghiệm du lịch tuyệt vời nhất, bao gồm các chuyến tham quan,
+            retreats công ty, và team building theo nhu cầu và mục tiêu riêng của bạn.</span></p>
           <button id="about-btn">Đọc thêm...</button>
         </div>
       </div>
@@ -443,9 +460,43 @@
   </footer>
   <!-- Footer End -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+  <script>
+    // Header
+    let header = document.querySelector('header');
+
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('shadow', window.scrollY > 0);
+    });
+
+
+    let clickButtons = document.querySelectorAll("#book-click");
+    let clickCount = document.querySelector("#click-count");
+    let count = 0;
+
+    for (let i = 0; i < clickButtons.length; i++) {
+      clickButtons[i].addEventListener("click", function () {
+        count++;
+        clickCount.innerHTML = count;
+        clickCount.style.color = "#00B0B8";
+      });
+    }
+
+
+    let aboutBtn = document.querySelector('#about-btn');
+    let moreContent = document.querySelector('#more-content');
+
+    aboutBtn.addEventListener('click', function () {
+      event.preventDefault();
+      moreContent.style.display = 'block';
+      aboutBtn.style.display = 'none';
+    });
+
+    moreContent.addEventListener('click', function () {
+      moreContent.style.display = 'none';
+      aboutBtn.style.display = 'block';
+    });
+  </script>
+
 </body>
 
 </html>

@@ -71,6 +71,30 @@
 .nav-item {
     margin-left: 10px;
   }
+
+  header {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header.shadow {
+    background: #fff;
+    box-shadow: 4px 4px 20px rgb(15, 54, 55 /10%);
+    transition: 0.5s;
+    border-bottom: 1px solid #00B0B8; 
+    
+}
+
+
+header.shadow #search-icon,
+header.shadow #cart-icon,
+header.shadow #add-icon {
+    color: #020102;
+}
 /* nav{
     display: flex;
     width: 100%;
@@ -516,5 +540,9 @@ header.shadow #cart-icon{
 }
 .social-links i:hover{
     background: #00B0B8;
+}
+
+#more-content {
+    display: none;
 }
 /* Footer End */
