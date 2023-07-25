@@ -29,11 +29,12 @@
   overflow-x: hidden;
   background-image: linear-gradient(
     to right,
-    #00B0B8,
+    /* #00B0B8,
     #28b4bb,
     #5db4b8,
     #62b2b8,
-    #74b7ba
+    #74b7ba */
+    #07b2bb,
   );
 }
 
